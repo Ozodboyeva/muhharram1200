@@ -1,0 +1,635 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap'); /* Inter*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap"); /* Montserrat */
+:root {
+    --font-familyInter: "Inter";
+    ----fontFamilyMontserrat: "Montserrat";
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+nav{
+    margin-top: 56px;
+    margin-bottom: 45px;
+}
+.container {
+    max-width:1200px;
+    margin:0 auto;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items{
+    display:flex;
+    align-items: center;
+    list-style: none;
+
+}
+.nav-item{
+    margin-left: 32px;
+    font-family:var(--font-familyInter);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #192252;
+
+}
+.btn{
+    width: 121px;
+    height: 47px;
+    background: #0E1734;
+    border-radius: 4px;
+    font-family: var(--font-familyInter);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+}
+/* Done Navbar section */
+
+/* Home-section */
+.home{
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-text{
+    margin-top: 30%;
+    font-family: var(----fontFamilyMontserrat);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: #192252;
+
+}
+.home-texts{
+    margin-top: 25px;
+    font-family:var(--font-familyInter);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #848FAC;
+
+}
+
+.reser{
+    margin-top: 32px;
+    width: 156px;
+    height: 51px;
+    background: #0E1734;
+    border-radius: 4px;
+    font-family: var(--font-familyInter);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.home-pic{
+    margin-top: 5%;
+}
+/* Home-section done */
+
+/* cootage section  */
+.cootage{
+    margin-top: 5%;
+    
+}
+.cootages{
+    margin-top:30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cootage-texts{
+    margin-right: 5%;
+}
+
+.cootage-texts h2{
+    margin-top: 20%;
+    font-family:var(----fontFamilyMontserrat);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: #192252;
+    margin-bottom: 24px;
+}
+.cootage-texts p{
+    margin-top: 16px;
+    font-family:var(--font-familyInter);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #848FAC;
+
+}
+.learn{
+    margin-top: 48px;
+    width: 151px;
+    height: 51px;
+    background: #0E1734;
+    border-radius: 4px;
+    font-family: var(--font-familyInter);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    }
+    /* cootage section done */
+
+.cabin{
+    margin-top: 4%;
+}
+.cabin-activities{
+    display: flex;
+    justify-content: space-between;
+
+}
+.cabin-texts h3{
+    margin-top: 24%;
+    font-family:var(----fontFamilyMontserrat);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: #192252;
+    
+}
+
+.cabin-texts p{
+    margin-top: 24px;
+    font-family:var(--font-familyInter);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #848FAC;
+
+}
+
+.cabin-texts img{
+    margin-top: 30%;
+   
+}
+
+.cabin-img img{
+    margin-left: 18%;
+
+}
+
+.cabin-img h3{
+    margin-top: 45%;
+    /* margin-left: 30%; */
+    font-family: var(----fontFamilyMontserrat);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: #192252;
+
+
+}
+.cabin-img p{
+    margin-top: 24px;
+    font-family:var(--font-familyInter);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #848FAC;
+
+}
+/* Cabin section done */
+
+/* Rooms-section */
+
+.rooms{
+    margin-top: 15%;
+    text-align: center;
+}
+.rooms h3{
+    font-family: var(----fontFamilyMontserrat);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #192252;
+   
+
+}
+.rooms p{
+    margin-top: 26px;
+    font-family:var(--font-familyInter);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #848FAC;
+
+}
+.rom-btn{
+    margin-top: 48px;
+    width: 165px;
+    height: 51px;
+    background: #0E1734;
+    border-radius: 4px;
+    font-family:var(--font-familyInter);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+}
+/* Rooms-section done */
+/* Cardo-section */
+.cardoo{
+    margin-top: 6%;
+    display: flex;
+    justify-content: space-between;
+}
+.div-1 h2{
+    margin-top: 32px;
+    font-family: var(----fontFamilyMontserrat);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    /* text-align: center; */
+    color: #000000;
+
+}
+.div-1 p{
+    margin-top: 16px;
+    font-family:var(--font-familyInter);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #848FAC;
+
+}
+.more{
+    margin-top: 34px;
+
+}
+.more a{
+    font-family:var(--font-familyInter);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #424F7B;
+
+}
+.div-2 h2{
+    margin-top: 32px;
+    font-family: var(----fontFamilyMontserrat);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    /* text-align: center; */
+    color: #000000;
+
+}
+.div-2 p{
+    margin-top: 16px;
+    font-family:var(--font-familyInter);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #848FAC;
+
+}
+.more1{
+    margin-top: 34px;
+
+}
+.more1 a{
+    font-family:var(--font-familyInter);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #424F7B;
+
+}
+
+
+.div-3 h2{
+    margin-top: 32px;
+    font-family: var(----fontFamilyMontserrat);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    /* text-align: center; */
+    color: #000000;
+
+}
+.div-3 p{
+    margin-top: 16px;
+    font-family:var(--font-familyInter);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #848FAC;
+
+}
+.more2{
+    margin-top: 34px;
+
+}
+.more2 a{
+    font-family:var(--font-familyInter);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #424F7B;
+
+}
+
+/* Cardo section done */
+
+.datas{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7%;
+}
+.data-texts{
+    margin-top:18%;
+}
+
+.data-texts a{
+    font-family:var(--font-familyInter);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #424F7B;
+
+    
+}
+.data-texts h2{
+    margin-top: 12px;
+    font-family:var(----fontFamilyMontserrat);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.01em;
+
+    color: #192252;
+
+
+}
+
+.data-texts p{
+    margin-top: 26px;
+    font-family:var(--font-familyInter);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #848FAC;
+
+}
+.contact{
+    margin-top: 48px;
+    width: 148px;
+    height: 51px;
+    background: #0E1734;
+    border-radius: 4px;
+    font-family:var(--font-familyInter);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+}
+.explore{
+    width: 148px;
+    height: 51px;
+    background: #FFFFFF;
+    border:none;
+    font-family:var(--font-familyInter);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0E1734;
+
+
+}
+.data-icons{
+    margin-top: 15%;
+    
+}
+
+.choose {
+    width: 588px;
+    height: 70px;
+    border:none;
+    background: #FFFFFF;
+    border-radius: 4px;
+    font-family:var(----fontFamilyMontserrat);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #424F7B;
+
+}
+
+.check {
+    border:none;
+    margin-top: 24px;
+    width: 588px;
+    height: 188px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    font-family:var(----fontFamilyMontserrat);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #424F7B;
+
+}
+.check p{
+    margin-top: 24px;
+    font-family:var(--font-familyInter);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #848FAC;
+
+}
+.enjoy{
+    border:none;
+    margin-top: 24px;
+    width: 588px;
+    height: 100px;
+    background: #FFFFFF;
+    border-radius: 4px;
+     font-family:var(----fontFamilyMontserrat);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #424F7B;
+
+}
+/* Data secion done */
+
+
+/* Customors */
+
+.customers{
+    margin-top: 10%;
+    text-align: center;
+
+}
+.customers h3{
+    font-family:var(----fontFamilyMontserrat);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #192252;
+
+}
+.customers img{
+    margin-top: 62px;
+}
+
+.customers p{
+    margin-top: 44px;
+    font-family:var(--font-familyInter);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #848FAC;
+
+
+}
+.customers h4{
+    margin-top: 40px;
+    font-family:var(--font-familyInter);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #192252;
+
+}
+.pro img{
+    margin-top:24px;
+    margin-bottom:80px;
+}
+
+/* footer-section */
+
+footer{
+    padding-top: 5%;
+    background-color: #0E1734;
+
+}
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+}
+/* .footer-items{
+    margin-top: 15%; */
+
+.footer-items h1{
+    padding-top: 10%;
+    font-family:var(----fontFamilyMontserrat);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+}
+.private{
+    font-family:var(--font-familyInter);
+    list-style: none;
+    margin-top: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #D9DBDE;
+
+
+}
+.footer-items img{
+    margin-top: 44px;
+    margin-left: 10px;
+
+}
+.nimadir-item h2{
+    font-family:var(--font-familyInter);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+
+}
+.nimadir-item li{
+    list-style: none;
+
+}
+.nimadir-item li{
+    margin-top: 24px;
+    font-family: var(--font-familyInter);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #D9DBDE;
+
+}
+
+
+
+
+
+
